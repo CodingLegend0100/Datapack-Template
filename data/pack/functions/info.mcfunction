@@ -1,0 +1,4 @@
+#Info to be displayed by Datapack Menu by MaxFlower
+#https://www.planetminecraft.com/data-pack/datapack-menu-no-more-using-the-vanilla-datapack-list/
+
+tellraw @s ["",{"text":"[PackName]","color":"gold","clickEvent":{"action":"open_url","value":"download page"},"hoverEvent":{"action":"show_text","contents":["v",{"score":{"name": "pack.major","objective": "load.status"}},".",{"score":{"name": "pack.minor","objective": "load.status"}},".",{"score":{"name": "pack.patch","objective": "load.status"}}]}},{"text":"                 [Author]","color":"light_purple","hoverEvent":{"action":"show_text","value":"planetminecraft.com/member/codinglegend0100"},"clickEvent":{"action":"open_url","value":"profile page"}},{"text": "Uninstall","color": "dark_purple","clickEvent": {"action": "run_command","value": "/function pack:uninstall"}}]
